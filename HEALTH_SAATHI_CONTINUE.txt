@@ -1,0 +1,10 @@
+HEALTH SAATHI CONTINUE STATE
+Fresh Android-focused PWA. Do NOT rebuild from scratch when continuing.
+Main UI/features: index.html.
+Stable files: manifest.json, sw.js, assets/.
+Mandatory creator credit: Muhammad Usman Channa on splash, Home and About.
+No forced install popup; install is in Settings and browser Add to Home Screen.
+Offline-first: service-worker caches app shell; metadata in localStorage; photos in IndexedDB.
+Included: BP, sugar, weight, pulse, SpO2, temperature, sleep, water +/- tracker, medicines, camera/gallery medicine photos, medicine edit/delete, reminder time + notification permission, notes/reminders, appointments, profile photo camera/gallery, profile info, records, backup import/export, print, feature reorder/resize, theme presets.
+Reminder limitation: Android/browser background exact alarms are not guaranteed; reminders are checked while the app is active and notifications require permission.
+Next: test on Android Chrome over GitHub Pages HTTPS. Fix only affected section/file; don't replace the whole project.
